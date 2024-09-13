@@ -7,7 +7,8 @@ Max operators: 8
 Example: bitNor(0x6, 0x5) = 0xFFFFFFF8
 */
 int bitNor(int x, int y) {
-  return 2;
+  a = ~x & ~y
+  return a;
 }
 
 /*
